@@ -1,0 +1,68 @@
+# Experiment Configuration — Frozen Before Evaluation
+# Project: Horizon- and Regime-Specific ML for Stock Return Prediction
+# Market: Indian Equity (NSE) exclusively
+# WARNING: Do not modify these parameters after experimentation begins.
+
+data:
+  source: "yahoo_finance"
+  library: "yfinance"
+  currency: "INR"
+  timezone: "Asia/Kolkata"  # IST = UTC+5:30
+  trading_hours: "09:15-15:30"
+
+  date_range:
+    start: "2015-01-01"
+    end: "2025-06-30"
+
+  # Stock universe — frozen before experimentation
+  # Top liquid NSE large-cap stocks selected for:
+  #   - High market cap and consistent trading history
+  #   - Sector diversity
+  #   - NOT selected after seeing results
+  universe:
+    - "RELIANCE.NS"    # Reliance Industries — Energy/Conglomerate
+    - "TCS.NS"         # Tata Consultancy Services — IT
+    - "HDFCBANK.NS"    # HDFC Bank — Banking
+    - "INFY.NS"        # Infosys — IT
+    - "ICICIBANK.NS"   # ICICI Bank — Banking
+    - "HINDUNILVR.NS"  # Hindustan Unilever — FMCG
+    - "ITC.NS"         # ITC Limited — FMCG/Conglomerate
+    - "SBIN.NS"        # State Bank of India — Banking (PSU)
+    - "BHARTIARTL.NS"  # Bharti Airtel — Telecom
+    - "LT.NS"          # Larsen & Toubro — Engineering
+    - "KOTAKBANK.NS"   # Kotak Mahindra Bank — Banking
+    - "AXISBANK.NS"    # Axis Bank — Banking
+    - "BAJFINANCE.NS"  # Bajaj Finance — NBFC
+    - "MARUTI.NS"      # Maruti Suzuki — Automobile
+    - "WIPRO.NS"       # Wipro — IT
+
+  # Benchmark index for Buy-and-Hold comparison
+  benchmark: "^NSEI"  # Nifty 50 Index
+
+  # OHLCV fields to download
+  fields:
+    - "Open"
+    - "High"
+    - "Low"
+    - "Close"
+    - "Adj Close"
+    - "Volume"
+
+# Walk-forward expanding window splits — frozen before experimentation
+walk_forward:
+  strategy: "expanding"
+  splits:
+    - { train_start: "2015-01-01", train_end: "2019-12-31", test_start: "2020-01-01", test_end: "2020-12-31", label: "split_1" }
+    - { train_start: "2015-01-01", train_end: "2020-12-31", test_start: "2021-01-01", test_end: "2021-12-31", label: "split_2" }
+    - { train_start: "2015-01-01", train_end: "2021-12-31", test_start: "2022-01-01", test_end: "2022-12-31", label: "split_3" }
+    - { train_start: "2015-01-01", train_end: "2022-12-31", test_start: "2023-01-01", test_end: "2023-12-31", label: "split_4" }
+    - { train_start: "2015-01-01", train_end: "2023-12-31", test_start: "2024-01-01", test_end: "2024-12-31", label: "split_5" }
+    - { train_start: "2015-01-01", train_end: "2024-12-31", test_start: "2025-01-01", test_end: "2025-06-30", label: "split_6_final" }
+
+# Forecast horizons
+horizons:
+  - 1   # 1-day forward return
+  - 5   # 5-day forward return
+
+# Random seed for reproducibility
+random_seed: 42

@@ -1,0 +1,110 @@
+[
+  {
+    "split": "split_1",
+    "train_period": "2015-01-01 \u2192 2019-12-31",
+    "test_period": "2020-01-01 \u2192 2020-12-31",
+    "low_threshold": 0.19927802205140585,
+    "high_threshold": 0.2675915982677695,
+    "test_counts": {
+      "Low": 477,
+      "Medium": 782,
+      "High": 2506
+    },
+    "test_total": 3765,
+    "test_proportions": {
+      "Low": 12.7,
+      "Medium": 20.8,
+      "High": 66.6
+    }
+  },
+  {
+    "split": "split_2",
+    "train_period": "2015-01-01 \u2192 2020-12-31",
+    "test_period": "2021-01-01 \u2192 2021-12-31",
+    "low_threshold": 0.20519006555219768,
+    "high_threshold": 0.28388949887057263,
+    "test_counts": {
+      "Low": 1163,
+      "Medium": 1317,
+      "High": 1240
+    },
+    "test_total": 3720,
+    "test_proportions": {
+      "Low": 31.3,
+      "Medium": 35.4,
+      "High": 33.3
+    }
+  },
+  {
+    "split": "split_3",
+    "train_period": "2015-01-01 \u2192 2021-12-31",
+    "test_period": "2022-01-01 \u2192 2022-12-31",
+    "low_threshold": 0.20561361030211156,
+    "high_threshold": 0.2840155161557584,
+    "test_counts": {
+      "Low": 1048,
+      "Medium": 1606,
+      "High": 1066
+    },
+    "test_total": 3720,
+    "test_proportions": {
+      "Low": 28.2,
+      "Medium": 43.2,
+      "High": 28.7
+    }
+  },
+  {
+    "split": "split_4",
+    "train_period": "2015-01-01 \u2192 2022-12-31",
+    "test_period": "2023-01-01 \u2192 2023-12-31",
+    "low_threshold": 0.20674244321372387,
+    "high_threshold": 0.2827557238599852,
+    "test_counts": {
+      "Low": 2850,
+      "Medium": 690,
+      "High": 135
+    },
+    "test_total": 3675,
+    "test_proportions": {
+      "Low": 77.6,
+      "Medium": 18.8,
+      "High": 3.7
+    }
+  },
+  {
+    "split": "split_5",
+    "train_period": "2015-01-01 \u2192 2023-12-31",
+    "test_period": "2024-01-01 \u2192 2024-12-31",
+    "low_threshold": 0.19821440540557997,
+    "high_threshold": 0.2726223652327354,
+    "test_counts": {
+      "Low": 1406,
+      "Medium": 1521,
+      "High": 763
+    },
+    "test_total": 3690,
+    "test_proportions": {
+      "Low": 38.1,
+      "Medium": 41.2,
+      "High": 20.7
+    }
+  },
+  {
+    "split": "split_6_final",
+    "train_period": "2015-01-01 \u2192 2024-12-31",
+    "test_period": "2025-01-01 \u2192 2025-06-30",
+    "low_threshold": 0.19730317273217282,
+    "high_threshold": 0.26893745377526174,
+    "test_counts": {
+      "Low": 719,
+      "Medium": 655,
+      "High": 456
+    },
+    "test_total": 1830,
+    "test_proportions": {
+      "Low": 39.3,
+      "Medium": 35.8,
+      "High": 24.9
+    }
+  }
+]

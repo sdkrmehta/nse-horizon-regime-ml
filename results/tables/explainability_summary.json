@@ -1,0 +1,50 @@
+{
+  "top5_features_1d": [
+    {
+      "feature": "return_2d",
+      "mean_abs_shap": 0.064672
+    },
+    {
+      "feature": "hl_range_pct",
+      "mean_abs_shap": 0.050912
+    },
+    {
+      "feature": "month",
+      "mean_abs_shap": 0.049787
+    },
+    {
+      "feature": "return_1d",
+      "mean_abs_shap": 0.037785
+    },
+    {
+      "feature": "return_20d",
+      "mean_abs_shap": 0.037034
+    }
+  ],
+  "top5_features_5d": [
+    {
+      "feature": "month",
+      "mean_abs_shap": 0.114239
+    },
+    {
+      "feature": "atr_14",
+      "mean_abs_shap": 0.060651
+    },
+    {
+      "feature": "volume_sma_20",
+      "mean_abs_shap": 0.047639
+    },
+    {
+      "feature": "macd_histogram",
+      "mean_abs_shap": 0.046528
+    },
+    {
+      "feature": "volatility_10d",
+      "mean_abs_shap": 0.044593
+    }
+  ],
+  "stability_spearman_1d": 0.8247,
+  "stability_spearman_5d": 0.7816,
+  "kendalls_W_1d": 0.8601,
+  "kendalls_W_5d": 0.8242
+}

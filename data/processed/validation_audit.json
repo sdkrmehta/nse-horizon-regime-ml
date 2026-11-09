@@ -1,0 +1,122 @@
+[
+  {
+    "split": "split_1",
+    "horizon": 1,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2019-12-31",
+    "test_date_min": "2020-01-01",
+    "purge_count": 0,
+    "embargo_count": 0
+  },
+  {
+    "split": "split_1",
+    "horizon": 5,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2019-12-24",
+    "test_date_min": "2020-01-01",
+    "purge_count": 60,
+    "embargo_count": 60
+  },
+  {
+    "split": "split_2",
+    "horizon": 1,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2020-12-31",
+    "test_date_min": "2021-01-01",
+    "purge_count": 0,
+    "embargo_count": 0
+  },
+  {
+    "split": "split_2",
+    "horizon": 5,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2020-12-24",
+    "test_date_min": "2021-01-01",
+    "purge_count": 60,
+    "embargo_count": 60
+  },
+  {
+    "split": "split_3",
+    "horizon": 1,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2021-12-31",
+    "test_date_min": "2022-01-03",
+    "purge_count": 0,
+    "embargo_count": 0
+  },
+  {
+    "split": "split_3",
+    "horizon": 5,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2021-12-27",
+    "test_date_min": "2022-01-03",
+    "purge_count": 60,
+    "embargo_count": 60
+  },
+  {
+    "split": "split_4",
+    "horizon": 1,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2022-12-30",
+    "test_date_min": "2023-01-02",
+    "purge_count": 0,
+    "embargo_count": 0
+  },
+  {
+    "split": "split_4",
+    "horizon": 5,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2022-12-26",
+    "test_date_min": "2023-01-02",
+    "purge_count": 60,
+    "embargo_count": 60
+  },
+  {
+    "split": "split_5",
+    "horizon": 1,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2023-12-29",
+    "test_date_min": "2024-01-01",
+    "purge_count": 0,
+    "embargo_count": 0
+  },
+  {
+    "split": "split_5",
+    "horizon": 5,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2023-12-22",
+    "test_date_min": "2024-01-01",
+    "purge_count": 60,
+    "embargo_count": 60
+  },
+  {
+    "split": "split_6_final",
+    "horizon": 1,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2024-12-31",
+    "test_date_min": "2025-01-01",
+    "purge_count": 0,
+    "embargo_count": 0
+  },
+  {
+    "split": "split_6_final",
+    "horizon": 5,
+    "passed": true,
+    "issues": [],
+    "train_date_max": "2024-12-24",
+    "test_date_min": "2025-01-01",
+    "purge_count": 60,
+    "embargo_count": 60
+  }
+]

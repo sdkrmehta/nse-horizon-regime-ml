@@ -1,0 +1,46 @@
+# Transaction Cost Assumptions — Fixed Before Observing Results
+# Project: Horizon- and Regime-Specific ML for Stock Return Prediction
+# Market: Indian Equity (NSE) exclusively
+# WARNING: These must NOT be changed after seeing trading results.
+# Based on typical Indian discount broker rates as of 2024.
+
+# ─────────────────────────────────────────────
+# Indian Market Transaction Cost Components
+# ─────────────────────────────────────────────
+costs:
+  # Brokerage (discount broker, e.g., Zerodha, Upstox)
+  brokerage_pct: 0.0003       # 0.03% per leg (buy or sell), capped at ₹20/order
+
+  # Securities Transaction Tax (STT) — levied on sell side only for equity delivery
+  stt_sell_pct: 0.001         # 0.10% on sell-side turnover
+
+  # Exchange transaction charges (NSE)
+  exchange_charge_pct: 0.0000325   # 0.00325% on turnover
+
+  # SEBI turnover fee
+  sebi_fee_pct: 0.000001      # 0.0001% on turnover
+
+  # Stamp duty (buyer side only, varies by state; using national average)
+  stamp_duty_pct: 0.00015     # 0.015% on buy-side turnover
+
+  # GST on brokerage + exchange charges (18%)
+  gst_rate: 0.18
+
+# ─────────────────────────────────────────────
+# Round-Trip Cost Summary
+# ─────────────────────────────────────────────
+# Approximate round-trip (buy + sell) total cost:
+#   Buy leg:  brokerage(0.03%) + exchange(0.00325%) + SEBI(0.0001%) + stamp(0.015%) + GST on brokerage
+#   Sell leg: brokerage(0.03%) + STT(0.10%) + exchange(0.00325%) + SEBI(0.0001%) + GST on brokerage
+#
+# Conservative round-trip estimate used in backtesting:
+round_trip_cost_bps: 20       # 20 basis points = 0.20% round trip (conservative)
+round_trip_cost_pct: 0.002    # Derived from above
+
+# ─────────────────────────────────────────────
+# Additional Assumptions
+# ─────────────────────────────────────────────
+slippage_bps: 5               # 5 bps slippage assumption (mid-to-fill)
+market_impact_bps: 0          # Assumed negligible for large-cap stocks
+position_size: "equal_weight" # Equal weighting across all held positions
+max_positions: 15             # Maximum simultaneous positions (= universe size)

@@ -1,0 +1,8 @@
+{
+  "cost_sensitivity_rows": 60,
+  "regime_conditional_splits": 5,
+  "cond_vs_xgb_mean": 0.0547,
+  "cond_vs_naive_mean": -0.015,
+  "kendalls_W_1d": 0.2778,
+  "kendalls_W_5d": 0.3444
+}

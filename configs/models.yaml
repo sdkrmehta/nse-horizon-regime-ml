@@ -1,0 +1,68 @@
+# Model Hyperparameters — Frozen Before Experimentation
+# Project: Horizon- and Regime-Specific ML for Stock Return Prediction
+# WARNING: Do NOT modify these after results are observed.
+# These are chosen to be reasonable defaults for financial time-series,
+# not tuned on any specific test period.
+
+# ─────────────────────────────────────────────
+# 1. Naive Baseline
+# ─────────────────────────────────────────────
+naive_baseline:
+  # Predicts the majority class of the training window.
+  # No tunable hyperparameters.
+  strategy: "most_frequent"
+
+# ─────────────────────────────────────────────
+# 2. Logistic Regression
+# ─────────────────────────────────────────────
+logistic_regression:
+  C: 0.1               # Inverse regularization — conservative (L2)
+  max_iter: 1000
+  solver: "lbfgs"
+  class_weight: "balanced"
+  random_state: 42
+
+# ─────────────────────────────────────────────
+# 3. Random Forest
+# ─────────────────────────────────────────────
+random_forest:
+  n_estimators: 300
+  max_depth: 6           # Shallow — avoids overfit on financial data
+  min_samples_leaf: 50   # Large leaf size — regularization
+  max_features: "sqrt"
+  class_weight: "balanced"
+  n_jobs: -1
+  random_state: 42
+
+# ─────────────────────────────────────────────
+# 4. XGBoost
+# ─────────────────────────────────────────────
+xgboost:
+  n_estimators: 400
+  max_depth: 4           # Shallow — financial series are noisy
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+  min_child_weight: 50   # Analogous to min_samples_leaf
+  reg_alpha: 0.1         # L1 regularization
+  reg_lambda: 1.0        # L2 regularization
+  scale_pos_weight: 1    # Adjusted per split if imbalanced
+  eval_metric: "logloss"
+  use_label_encoder: false
+  random_state: 42
+  n_jobs: -1
+
+# ─────────────────────────────────────────────
+# 5. Evaluation Metrics
+# ─────────────────────────────────────────────
+evaluation:
+  primary_metric: "accuracy"       # Directional accuracy
+  secondary_metrics:
+    - "roc_auc"
+    - "f1"
+    - "precision"
+    - "recall"
+    - "log_loss"
+  report_per_regime: true          # Break down metrics by Low/Med/High vol regime
+  report_per_horizon: true         # Break down metrics by 1-day and 5-day horizon
+  random_seeds: [42]               # Single seed for baseline/tabular training; multi-seed in robustness analysis

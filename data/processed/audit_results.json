@@ -1,0 +1,428 @@
+[
+  {
+    "ticker": "RELIANCE.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume",
+      "CORPORATE_ACTIONS: 2 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 2,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 185.3238067626953,
+    "close_max": 1600.9000244140625,
+    "close_mean": 770.4589353217357,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "TCS.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume",
+      "CORPORATE_ACTIONS: 3 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 3,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 1050.574951171875,
+    "close_max": 4553.75,
+    "close_mean": 2469.2272105240922,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "HDFCBANK.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume",
+      "CORPORATE_ACTIONS: 4 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 4,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 235.5625,
+    "close_max": 1010.9000244140625,
+    "close_mean": 585.9339130883421,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "INFY.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume",
+      "CORPORATE_ACTIONS: 12 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 12,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 436.70001220703125,
+    "close_max": 1999.699951171875,
+    "close_mean": 1037.8613755574968,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "ICICIBANK.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume",
+      "CORPORATE_ACTIONS: 2 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 2,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 166.36363220214844,
+    "close_max": 1462.199951171875,
+    "close_mean": 585.987184827325,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "HINDUNILVR.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume",
+      "CORPORATE_ACTIONS: 2 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 2,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 755.9500122070312,
+    "close_max": 3028.550048828125,
+    "close_mean": 1850.8399587950223,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "ITC.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "CORPORATE_ACTIONS: 16 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 0,
+    "adj_close_divergence_days": 16,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 141.78927612304688,
+    "close_max": 503.36395263671875,
+    "close_mean": 281.875384917541,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "SBIN.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume",
+      "CORPORATE_ACTIONS: 6 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 6,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 150.85000610351562,
+    "close_max": 905.6500244140625,
+    "close_mean": 405.7849942852328,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "BHARTIARTL.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 0,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 257.17376708984375,
+    "close_max": 2027.0999755859375,
+    "close_mean": 632.6387114335138,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "LT.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume",
+      "CORPORATE_ACTIONS: 10 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 10,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 702.433349609375,
+    "close_max": 3947.300048828125,
+    "close_mean": 1725.3563866583986,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "KOTAKBANK.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 0,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 120.12999725341797,
+    "close_max": 453.760009765625,
+    "close_mean": 280.8093546708609,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "AXISBANK.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 0,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 303.1499938964844,
+    "close_max": 1317.300048828125,
+    "close_mean": 711.8740055795893,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "BAJFINANCE.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 0,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 34.25849914550781,
+    "close_max": 960.75,
+    "close_mean": 409.0508328552364,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "MARUTI.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 2 days with zero volume",
+      "CORPORATE_ACTIONS: 1 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 2,
+    "adj_close_divergence_days": 1,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 3236.5,
+    "close_max": 13495.599609375,
+    "close_mean": 7669.040184471864,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "WIPRO.NS",
+    "rows": 2589,
+    "date_start": "2015-01-01",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 1 days with zero volume",
+      "CORPORATE_ACTIONS: 2 days with significant Adj Close/Close divergence"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 1,
+    "adj_close_divergence_days": 2,
+    "expected_trading_days": 2569,
+    "actual_trading_days": 2589,
+    "close_min": 81.17500305175781,
+    "close_max": 360.75,
+    "close_mean": 170.5228432470788,
+    "status": "REVIEW"
+  },
+  {
+    "ticker": "^NSEI",
+    "rows": 2581,
+    "date_start": "2015-01-02",
+    "date_end": "2025-06-27",
+    "issues": [
+      "ZERO_VOLUME: 28 days with zero volume"
+    ],
+    "duplicate_dates": 0,
+    "nan_per_column": {
+      "Adj Close": 0,
+      "Close": 0,
+      "High": 0,
+      "Low": 0,
+      "Open": 0,
+      "Volume": 0
+    },
+    "zero_volume_days": 28,
+    "adj_close_divergence_days": 0,
+    "expected_trading_days": 2568,
+    "actual_trading_days": 2581,
+    "close_min": 6970.60009765625,
+    "close_max": 26216.05078125,
+    "close_mean": 13990.961509589306,
+    "status": "REVIEW"
+  }
+]
